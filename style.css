@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #fef7f7;
+}
+
+.calculator {
+    width: 400px;
+    background: rgb(67, 175, 211);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0 rgba(1, 1, 1, 0.1);
+    box-shadow: inset 0px 0px 10px;
+}
+
+.top-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.display {
+    flex: grow 1;  
+    height: 60px;
+    text-align: right;
+    font-size: 24px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #eee;
+    width: 100%;
+    background: #8c8484;
+    box-shadow: inset 0px 0px 10px ;
+}
+
+.btn.AllClear{
+    width: 100px;
+    height: 60px;
+    box-shadow: inset 0px 0px 10px;
+}
+
+.btn {
+    width: 82,5px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #ddd;
+    box-shadow: 0px 0px 10px;
+}
+
+.bg-red {
+    background: rgb(255, 29, 29);
+    color: white;
+}
+
+.bg-black {
+    background: black;
+    color: white;
+}
+
+.bg-yellow {
+    background: orange;
+    color: white;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    height: 110%;
+    
+
+}
+
+button:hover {
+    background: #ccc;
+}
